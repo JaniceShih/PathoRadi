@@ -1,0 +1,23 @@
+/* Lists */
+.list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list--inline .list__item {
+    display: inline-block;
+    margin-right: 3rem;
+}
+
+
+
+.list__item {
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 750px) {   
+    .list{
+        display: flex;
+    }
+}

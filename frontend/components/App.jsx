@@ -1,9 +1,10 @@
 import React from "react";
+import NavBarContainer from "./nav/navbar_container";
 
 const App = () => (
-  <div>
-    <h1>Welcome PathoRadi</h1>
-  </div>
+  <>
+    <NavBarContainer />
+  </>
 );
 
 export default App;

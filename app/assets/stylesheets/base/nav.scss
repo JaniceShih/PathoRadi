@@ -1,0 +1,43 @@
+.nav {
+    background-image: radial-gradient(at top left, transparent 67%, #fff 67.5%),
+        linear-gradient(135deg, #03509d 0%, #a8c0d9 100%);
+    background-size: 120% 100%,cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 150px;
+
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+    border: 0px;
+}
+
+.nav_left{
+    display: flex;
+    flex-direction: row;    
+    
+}
+
+.nav__center{
+    display: flex;
+    flex-direction: row;    
+    
+}
+
+.nav__right{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    cursor: pointer;
+
+    font-size: 1.8rem;
+    color: #fff;
+}

@@ -1,0 +1,8 @@
+body {
+    background-image: radial-gradient(at top left, transparent 67%, #fff 67.5%),
+        linear-gradient(135deg, #51a595 0%, #3fcfa2 100%);
+    background-size: 120% 100%,cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+}
