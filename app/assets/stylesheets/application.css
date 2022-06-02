@@ -20,3 +20,6 @@
 @import url("./base/styles.scss");
 @import url("./base/nav.scss");
 @import url("./base/list.scss");
+@import url("./base/modal.scss");
+@import url("./base/form.scss");
+@import url("./base/btn.scss")

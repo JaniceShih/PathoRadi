@@ -1,9 +1,13 @@
 import React from "react";
-import NavBarContainer from "./nav/navbar_container";
+import { Redirect, Switch } from 'react-router-dom';
+import { Route } from 'react-router-dom';
+import FeedIndexContainer from './feed/feed_index_container';
 
 const App = () => (
   <>
-    <NavBarContainer />
+    <Switch>
+        <Route exact path="/" component={FeedIndexContainer} />        
+    </Switch>   
   </>
 );
 

@@ -6,14 +6,41 @@
 
 .list--inline .list__item {
     display: inline-block;
-    margin-right: 3rem;
+    margin-right: 2rem;
 }
 
 
 
 .list__item {
     padding-left: 1rem;
+    padding-right: 1rem;
     margin-bottom: 1rem;
+}
+
+.list__item__option{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+
+.user__avatar{
+    margin-right: 5px;
+    text-transform: Capitalize;    
+}
+
+.user__exit{
+    background: var(--color-border);
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    padding: 5px 5px;
+    align-self: center;
+    margin-right: 5px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (min-width: 750px) {   

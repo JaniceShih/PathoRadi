@@ -1,0 +1,24 @@
+import React from "react";
+import AddAPhotoIcon from '@mui/icons-material/AddAPhoto';
+
+export default class SignupForm extends React.Component {
+    constructor(props) {
+        super(props);
+    }
+
+    render(){
+        return(
+            <div>               
+                <form className="form__box">
+                    <div onClick={this.props.closeModal} className="close-x">X</div> 
+                    <div className="form__header">
+                        
+                         <span style={{color: '#0071bc'}}>P</span><span style={{color: '#42b2fc'}}>A</span><span style={{color: '#099afa'}}>T</span><span style={{color: '#3f89bb'}}>H</span><span style={{color: '#08c3fc'}}>O</span><span style={{color: '#528ecc', fontSize: 'xx-large', fontWeight: '700'}}>Radi </span>                         
+                        <h1>Sing Up</h1>
+                    </div>
+                </form>
+            </div>
+        )
+    }
+
+}
