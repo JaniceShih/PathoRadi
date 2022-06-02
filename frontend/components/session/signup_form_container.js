@@ -5,7 +5,8 @@ import {closeModal} from '../../actions/modal_actions';
 
 const mapStateToProps = state => {
     return {
-        
+        currentUserId: state.session.currentUser,
+        currentUser:  state.session.currentUser ? state.entities.users[state.session.currentUser] : undefined        
     };
 };
 
